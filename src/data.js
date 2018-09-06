@@ -11,14 +11,26 @@ const personalInfo = [
   {
     title: "website",
     icon: "link",
-    value: "https://maomaozh.github.io/whoiam/"
+    link: "https://maomaozh.github.io/whoiam",
+    value: "maomaozh.github.io/whoiam"
   },
-  { title: "github", icon: "github", value: "https://github.com/maomaoZH" },
-  { title: "email", icon: "at", value: "mailto:maomao.zha@gmail.com" },
+  {
+    title: "github",
+    icon: "github",
+    link: "https://github.com/maomaoZH",
+    value: "github.com/maomaoZH"
+  },
+  {
+    title: "email",
+    icon: "at",
+    link: "mailto:maomao.zha@gmail.com",
+    value: "maomao.zha@gmail.com"
+  },
   {
     title: "LinkedIn",
     icon: "linkedin",
-    value: "https://www.linkedin.com/in/maomao-zha/"
+    link: "https://www.linkedin.com/in/maomao-zha",
+    value: "www.linkedin.com/in/maomao-zha"
   }
 ];
 

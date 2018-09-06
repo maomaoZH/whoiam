@@ -19,7 +19,7 @@ const AboutMe = () => {
           {data.personalInfo.map((info, index) => (
             <p key={index}>
               <i className={`fa fa-${info.icon} icon`} />
-              {`${info.title}:`} <a href={info.value}>{info.value}</a>
+              {`${info.title}:`} <a href={info.link}>{info.value}</a>
             </p>
           ))}
         </div>
