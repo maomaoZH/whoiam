@@ -8,7 +8,11 @@ const aboutMe = [
 ];
 
 const personalInfo = [
-  { title: "website", icon: "link", value: "www.mywebsite" },
+  {
+    title: "website",
+    icon: "link",
+    value: "https://maomaozh.github.io/whoiam/"
+  },
   { title: "github", icon: "github", value: "https://github.com/maomaoZH" },
   { title: "email", icon: "at", value: "mailto:maomao.zha@gmail.com" },
   {
