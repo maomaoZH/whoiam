@@ -1,10 +1,10 @@
 const aboutMe = [
-  "I have been developing web application since 2013.",
-  "I use modern web technology framework or libraries such as React and Redux.",
-  "I have experience of working with Ruby on Rails.",
-  "I am focusing on writing clean quality code by refactoring my code",
+  "I have been developing web application since 2013",
+  "I use modern javascript frameworks or libraries such as React and Redux",
+  "I have experience of working with Ruby on Rails",
+  "I am focusing on writing clean quality code by refactoring code",
   "Commit and delivery are the essentials in my daily work",
-  "I am a fast learner and a great team player who love for challenging tasks."
+  "I am a fast learner and a great team player who love for challenging tasks"
 ];
 
 const personalInfo = [

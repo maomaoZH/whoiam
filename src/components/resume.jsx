@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <section className="resume">
       <div className="blocker">
-        <i class="fa fa-briefcase mgr-24" />
+        <i className="fa fa-briefcase mgr-24" />
         Employment
       </div>
       {data.jobExperiences.map((job, index) => (
@@ -25,7 +25,7 @@ const Resume = () => {
       ))}
 
       <div className="blocker">
-        <i class="fa fa-graduation-cap mgr-24" />
+        <i className="fa fa-graduation-cap mgr-24" />
         Education
       </div>
       {data.education.map((education, index) => (
@@ -39,7 +39,7 @@ const Resume = () => {
       ))}
 
       <div className="blocker">
-        <i class="fa fa-wrench mgr-24" />
+        <i className="fa fa-wrench mgr-24" />
         Skills
       </div>
       <div className="skillWrapper">
@@ -52,7 +52,7 @@ const Resume = () => {
       </div>
 
       <div className="blocker">
-        <i class="fa fa-certificate mgr-24" />
+        <i className="fa fa-certificate mgr-24" />
         Certificated Scrum Master
       </div>
     </section>

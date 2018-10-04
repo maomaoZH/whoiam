@@ -39,6 +39,12 @@ class Header extends Component {
           <div className="nameWrapper">
             <p className="name">I'm Maomao Meyer-Zhang</p>
             <p>A frontend engineer made in China, with world class quality</p>
+            <p>
+              We are living in an imperfect world. It is quite impossible to
+              create a piece of software which is perfect. But we can write
+              clean code, by definig which is being clear, understandable and is
+              minimised the amount of the code
+            </p>
           </div>
         </div>
         <div

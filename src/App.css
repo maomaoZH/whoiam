@@ -39,6 +39,7 @@
   align-items: flex-end;
   justify-content: center;
   z-index: 1;
+  padding: 24px;
 }
 .whoami,
 .myName {
@@ -79,7 +80,6 @@
   position: relative;
   border-bottom: 1px solid #ebebeb;
   text-transform: uppercase;
-  font-family: 36px;
   font-weight: 600;
 }
 
@@ -261,4 +261,41 @@
   font-size: 12px;
   background: #323232;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .appHeader {
+    height: auto;
+    min-height: auto;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .navbar {
+    padding: 12px;
+    font-size: 12px;
+  }
+  .profileImage {
+    height: 320px;
+  }
+  .aboutMe {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .employment,
+  .education {
+    grid-template-columns: 1fr;
+  }
+  .blocker {
+    padding: 12px;
+  }
+  .big-num {
+    border-top: 0.5px solid #ebebeb;
+    border-bottom: 0.5px solid #ebebeb;
+  }
+  .rightColumn,
+  .leftColumn {
+    padding: 24px;
+    align-items: center;
+  }
 }
