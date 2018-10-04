@@ -47,6 +47,9 @@ const Resume = () => {
           <div className="block" key={index}>
             <p className="title">{skill.name}</p>
             <p className="subject">{skill.value}</p>
+            <div className="progressBar">
+              <span className="fill" style={{ width: skill.value }} />
+            </div>
           </div>
         ))}
       </div>

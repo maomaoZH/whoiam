@@ -246,14 +246,30 @@
 .mgl-24 {
   margin-left: 24px;
 }
-
+.progressBar {
+  width: 80%;
+  height: 12px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+}
+.fill {
+  height: 100%;
+  width: 80%;
+  background-color: #ebebeb;
+  display: block;
+  border-radius: 8px;
+}
 .skillWrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .block {
+  padding: 24px;
   border: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer {
@@ -297,5 +313,11 @@
   .leftColumn {
     padding: 24px;
     align-items: center;
+  }
+  .block {
+    padding: 12px;
+  }
+  .progressBar {
+    width: 100%;
   }
 }
