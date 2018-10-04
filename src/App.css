@@ -254,11 +254,24 @@
 }
 .fill {
   height: 100%;
-  width: 80%;
+  width: 0;
   background-color: #ebebeb;
   display: block;
   border-radius: 8px;
+  position: relative;
+  width: 50%;
+  transition: "width 1s 2s";
 }
+
+/* .fill:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  transition: all 0.5s;
+  left: 0;
+} */
 .skillWrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

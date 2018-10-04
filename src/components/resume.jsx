@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import data from "../data";
+import ProgressBar from "./progressBar";
 
 const Resume = () => {
   return (
@@ -46,10 +47,12 @@ const Resume = () => {
         {data.skills.map((skill, index) => (
           <div className="block" key={index}>
             <p className="title">{skill.name}</p>
-            <p className="subject">{skill.value}</p>
-            <div className="progressBar">
-              <span className="fill" style={{ width: skill.value }} />
-            </div>
+            <p className="subject">{skill.value}%</p>
+            <ProgressBar
+              startWidth={0}
+              endWidth={parseInt(skill.value)}
+              duration={2000}
+            />
           </div>
         ))}
       </div>

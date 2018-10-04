@@ -77,12 +77,12 @@ const education = [
 ];
 
 const skills = [
-  { name: "React/Redux", value: "95%" },
-  { name: "Javascript", value: "95%" },
-  { name: "Ruby on Rails", value: "80%" },
-  { name: "English Language", value: "95%" },
-  { name: "German Lauguage", value: "75%" },
-  { name: "Cooking", value: "100%" }
+  { name: "React/Redux", value: "95" },
+  { name: "Javascript", value: "95" },
+  { name: "Ruby on Rails", value: "80" },
+  { name: "English Language", value: "95" },
+  { name: "German Lauguage", value: "75" },
+  { name: "Cooking", value: "100" }
 ];
 
 export default {
