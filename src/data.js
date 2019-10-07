@@ -44,7 +44,7 @@ const jobExperiences = [
     Achievements: ""
   },
   {
-    Title: "Senior Frontend Developer immmr",
+    Title: "Senior Frontend Developer",
     Company: "immmr GmbH (100% subsidiary of Deutsche Telekom)",
     Responsibilities: [
       "develop WebRTC based web app using React/Redux/Electron technology",
