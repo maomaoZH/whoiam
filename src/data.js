@@ -36,6 +36,14 @@ const personalInfo = [
 
 const jobExperiences = [
   {
+    Title: "Software Engineer",
+    Company: "Deutsche Telekom AG",
+    Responsibilities: [
+      "develop chat bot frontend for telekom digital assistant"
+    ],
+    Achievements: ""
+  },
+  {
     Title: "Senior Frontend Developer immmr",
     Company: "immmr GmbH (100% subsidiary of Deutsche Telekom)",
     Responsibilities: [
